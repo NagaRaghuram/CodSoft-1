@@ -1,0 +1,62 @@
+# Predefined Chatbot:
+
+     A simple and interactive predefined chatbot built using Python. This chatbot provides users with predefined responses based on specific
+keywords or phrases, demonstrating fundamental concepts of chatbot development.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Features
+
+- Predefined responses to common queries.
+- Keyword recognition to identify user inputs.
+- Randomized responses for a dynamic conversation experience.
+- User-friendly interaction via the command line.
+- Graceful exit by typing 'exit'.
+
+## Technologies Used
+
+- **Programming Language**: Python
+- **Libraries**: None required (built-in Python functionality)
+
+## Installation:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/NagaRaghuram/predefined chatbot.git
+
+## Example:
+
+  User: Hello!
+Chatbot: Hello! How can I assist you today?
+
+User: How are you?
+Chatbot: I'm just a bot, but I'm doing great! How about you?
+
+User: Tell me a joke
+Chatbot: Why don't scientists trust atoms? Because they make up everything!
+
+User: bye
+Chatbot: Goodbye! Have a great day!
+
+# Customization:
+To add new responses, modify the responses dictionary in chatbot.py. You can define new keywords and their corresponding responses:
+responses = {
+    "hello": ["Hi there!", "Hello!", "Greetings!"],
+    "bye": ["Goodbye!", "See you later!", "Take care!"],
+    "your_custom_keyword": ["Your custom response here."]
+}
+
+# License:
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
